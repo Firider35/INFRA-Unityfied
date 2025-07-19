@@ -31,7 +31,7 @@ There are no currently available releases
 ## Credits
 - [Firider35](https://github.com/Firider35)
 - [Loiste Interactive](loisteinteractive.com) for the making the original game [INFRA](https://store.steampowered.com/app/251110/INFRA/)
-- [???]
+- [Ierdna100](https://github.com/Ierdna100)
 - [ChatGPT](chatgpt.com)
 
 ## Links
