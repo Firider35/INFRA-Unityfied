@@ -12,6 +12,7 @@ INFRA is what we like to call a gun-free puzzle adventure. Instead of large expl
 - [System Requirements](#SystemRequirements)
 - [Installation Instructions](#Howtoinstall)
 - [Credits](#Credits)
+- [Links](#Links)
 
 ## System Requirements
 OS: Windows, MacOS, or Linux (Refer to specific releases)
@@ -32,6 +33,9 @@ There are no currently available releases
 - [Loiste Interactive](loisteinteractive.com) for the making the original game [INFRA](https://store.steampowered.com/app/251110/INFRA/)
 - [???]
 - [ChatGPT](chatgpt.com)
+
+## Links
+You can check on the developement on the Loiste Interactive [Discord](https://discord.gg/vsqvazWJnZ)
 
 ### This README was last updated on 19.07.2025
 ### Release of Part 1 is planned on 15.01.2026 but this is not confirmed yet
