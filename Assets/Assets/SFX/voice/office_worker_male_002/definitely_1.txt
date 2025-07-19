@@ -1,0 +1,29 @@
+VERSION 1.0
+PLAINTEXT
+{
+Definitely.
+}
+WORDS
+{
+WORD Definitely. 0.000 0.740
+{
+100 d 0.000 0.082 1
+603 eh 0.082 0.185 1
+102 f 0.185 0.267 1
+110 n 0.267 0.349 1
+605 er2 0.349 0.473 1
+116 t 0.473 0.555 1
+108 l 0.555 0.637 1
+105 iy 0.637 0.740 1
+}
+WORD Definitely 0.740 0.812
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

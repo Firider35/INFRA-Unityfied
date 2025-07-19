@@ -1,0 +1,25 @@
+VERSION 1.0
+PLAINTEXT
+{
+Morning.
+}
+WORDS
+{
+WORD Morning. 0.270 0.820
+{
+109 m 0.270 0.407 1
+97 aa2 0.407 0.545 1
+618 ih 0.545 0.682 1
+331 ng 0.682 0.820 1
+}
+WORD Morning 0.820 1.175
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

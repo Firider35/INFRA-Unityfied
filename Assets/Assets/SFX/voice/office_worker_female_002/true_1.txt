@@ -1,0 +1,21 @@
+VERSION 1.0
+PLAINTEXT
+{
+true
+}
+WORDS
+{
+WORD true 0.050 0.440
+{
+116 t 0.050 0.154 1
+633 r 0.154 0.284 1
+117 uw 0.284 0.440 1
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

@@ -1,0 +1,28 @@
+VERSION 1.0
+PLAINTEXT
+{
+Typical.
+}
+WORDS
+{
+WORD Typical. 0.220 0.780
+{
+116 t 0.220 0.292 1
+618 ih 0.292 0.383 1
+112 p 0.383 0.455 1
+618 ih 0.455 0.545 1
+107 c 0.545 0.599 1
+605 er2 0.599 0.708 1
+108 l 0.708 0.780 1
+}
+WORD Typical 0.780 1.175
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

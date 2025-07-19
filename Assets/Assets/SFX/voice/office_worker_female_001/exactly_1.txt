@@ -1,0 +1,29 @@
+VERSION 1.0
+PLAINTEXT
+{
+Exactly!
+}
+WORDS
+{
+WORD Exactly! 0.130 0.930
+{
+618 ih 0.130 0.248 1
+103 g 0.248 0.342 1
+122 z 0.342 0.436 1
+230 ae 0.436 0.554 1
+107 c 0.554 0.624 1
+116 t 0.624 0.718 1
+108 l 0.718 0.812 1
+105 iy 0.812 0.930 1
+}
+WORD Exactly 0.930 1.017
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

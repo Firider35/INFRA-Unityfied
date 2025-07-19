@@ -1,0 +1,31 @@
+VERSION 1.0
+PLAINTEXT
+{
+Hey dude!
+}
+WORDS
+{
+WORD Hey 0.030 0.240
+{
+104 hh 0.030 0.090 1
+101 ey 0.090 0.165 1
+105 iy 0.165 0.240 1
+}
+WORD dude! 0.240 0.580
+{
+100 d 0.240 0.318 1
+106 y 0.318 0.386 1
+117 uw 0.386 0.502 1
+100 d 0.502 0.580 1
+}
+WORD dude 0.580 0.687
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

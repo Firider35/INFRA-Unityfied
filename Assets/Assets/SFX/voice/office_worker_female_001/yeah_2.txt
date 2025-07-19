@@ -1,0 +1,23 @@
+VERSION 1.0
+PLAINTEXT
+{
+Yeah.
+}
+WORDS
+{
+WORD Yeah. 0.230 0.540
+{
+106 y 0.230 0.358 1
+603 eh 0.358 0.540 1
+}
+WORD Yeah 0.540 0.803
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

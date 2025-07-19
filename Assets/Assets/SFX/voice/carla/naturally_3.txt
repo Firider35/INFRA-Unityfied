@@ -1,0 +1,27 @@
+VERSION 1.0
+PLAINTEXT
+{
+Naturally.
+}
+WORDS
+{
+WORD Naturally. 0.140 0.960
+{
+110 n 0.140 0.257 1
+230 ae 0.257 0.404 1
+679 ch 0.404 0.550 1
+633 r 0.550 0.696 1
+108 l 0.696 0.814 1
+105 iy 0.814 0.960 1
+}
+WORD Naturally 0.960 1.410
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

@@ -1,0 +1,29 @@
+VERSION 1.0
+PLAINTEXT
+{
+Probably.
+}
+WORDS
+{
+WORD Probably. 0.090 0.850
+{
+112 p 0.090 0.170 1
+633 r 0.170 0.270 1
+596 ao 0.270 0.390 1
+98 b 0.390 0.470 1
+605 er2 0.470 0.590 1
+98 b 0.590 0.670 1
+108 l 0.670 0.750 1
+105 iy 0.750 0.850 1
+}
+WORD Probably 0.850 1.086
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

@@ -1,0 +1,32 @@
+VERSION 1.0
+PLAINTEXT
+{
+That's right.
+}
+WORDS
+{
+WORD That's 0.280 0.540
+{
+240 dh 0.280 0.352 1
+230 ae 0.352 0.424 1
+116 t 0.424 0.482 1
+115 s 0.482 0.540 1
+}
+WORD right. 0.540 0.940
+{
+633 r 0.540 0.645 1
+97 aa2 0.645 0.751 1
+105 iy 0.751 0.856 1
+116 t 0.856 0.940 1
+}
+WORD right 0.940 2.086
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

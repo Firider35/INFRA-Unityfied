@@ -1,0 +1,22 @@
+VERSION 1.0
+PLAINTEXT
+{
+okay
+}
+WORDS
+{
+WORD okay 0.090 0.560
+{
+111 ow 0.090 0.238 1
+650 uh 0.238 0.362 1
+107 c 0.362 0.436 1
+101 ey 0.436 0.560 1
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

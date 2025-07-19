@@ -1,0 +1,27 @@
+VERSION 1.0
+PLAINTEXT
+{
+Hey Mark! 
+}
+WORDS
+{
+WORD Hey 0.120 0.252
+{
+104 hh 0.136 0.165 1
+101 ey 0.165 0.214 1
+105 iy 0.214 0.254 1
+}
+WORD Mark! 0.252 0.484
+{
+109 m 0.254 0.328 1
+593 aa 0.328 0.424 1
+107 c 0.424 0.486 1
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

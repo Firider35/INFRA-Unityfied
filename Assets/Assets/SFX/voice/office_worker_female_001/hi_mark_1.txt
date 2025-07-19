@@ -1,0 +1,30 @@
+VERSION 1.0
+PLAINTEXT
+{
+Hi Mark!
+}
+WORDS
+{
+WORD Hi 0.000 0.160
+{
+104 hh 0.000 0.046 1
+97 aa2 0.046 0.103 1
+105 iy 0.103 0.160 1
+}
+WORD Mark! 0.160 0.550
+{
+109 m 0.160 0.310 1
+593 aa 0.310 0.460 1
+107 c 0.460 0.550 1
+}
+WORD Mark 0.550 0.696
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

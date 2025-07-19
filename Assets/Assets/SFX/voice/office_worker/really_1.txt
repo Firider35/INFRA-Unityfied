@@ -1,0 +1,22 @@
+VERSION 1.0
+PLAINTEXT
+{
+Really? 
+}
+WORDS
+{
+WORD Really? 0.088 0.464
+{
+633 r 0.096 0.174 1
+105 iy 0.174 0.292 1
+108 l 0.292 0.388 1
+105 iy 0.388 0.454 1
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

@@ -1,0 +1,26 @@
+VERSION 1.0
+PLAINTEXT
+{
+and yet
+}
+WORDS
+{
+WORD and 0.160 0.330
+{
+101 ey 0.160 0.254 1
+100 d 0.254 0.330 1
+}
+WORD yet 0.330 0.720
+{
+106 y 0.330 0.439 1
+603 eh 0.439 0.595 1
+116 t 0.595 0.720 1
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

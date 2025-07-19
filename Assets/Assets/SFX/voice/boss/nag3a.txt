@@ -1,0 +1,24 @@
+VERSION 1.0
+PLAINTEXT
+{
+Mark?
+}
+WORDS
+{
+WORD Mark? 0.060 0.590
+{
+109 m 0.060 0.264 1
+593 aa 0.264 0.468 1
+107 c 0.468 0.590 1
+}
+WORD Mark 0.590 0.833
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

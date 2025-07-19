@@ -1,0 +1,31 @@
+VERSION 1.0
+PLAINTEXT
+{
+Yeah, that one. 
+}
+WORDS
+{
+WORD Yeah, 0.214 0.456
+{
+106 y 0.214 0.305 1
+603 eh 0.305 0.442 1
+}
+WORD that 0.456 0.575
+{
+240 dh 0.442 0.481 1
+230 ae 0.481 0.531 1
+116 t 0.531 0.568 1
+}
+WORD one. 0.575 0.825
+{
+119 w 0.568 0.693 1
+650 uh 0.693 0.818 1
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

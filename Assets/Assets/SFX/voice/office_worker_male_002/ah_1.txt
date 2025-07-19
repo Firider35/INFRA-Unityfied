@@ -1,0 +1,19 @@
+VERSION 1.0
+PLAINTEXT
+{
+eah
+}
+WORDS
+{
+WORD eah 0.220 0.300
+{
+603 eh 0.220 0.300 1
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

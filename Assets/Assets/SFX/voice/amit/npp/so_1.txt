@@ -1,0 +1,23 @@
+VERSION 1.0
+PLAINTEXT
+{
+So.
+}
+WORDS
+{
+WORD So. 1.740 2.420
+{
+115 s 1.740 2.012 1
+111 ow 2.012 2.420 1
+}
+WORD So 2.420 2.800
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

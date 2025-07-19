@@ -1,0 +1,23 @@
+VERSION 1.0
+PLAINTEXT
+{
+Bah!
+}
+WORDS
+{
+WORD Bah! 0.040 0.370
+{
+98 b 0.040 0.187 1
+593 aa 0.187 0.370 1
+}
+WORD Bah 0.370 0.878
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

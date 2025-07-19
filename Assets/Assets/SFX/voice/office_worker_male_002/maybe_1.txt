@@ -1,0 +1,26 @@
+VERSION 1.0
+PLAINTEXT
+{
+Maybe.
+}
+WORDS
+{
+WORD Maybe. 0.000 0.380
+{
+109 m 0.000 0.079 1
+101 ey 0.079 0.158 1
+105 iy 0.158 0.237 1
+98 b 0.237 0.301 1
+105 iy 0.301 0.380 1
+}
+WORD Maybe 0.380 0.586
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}

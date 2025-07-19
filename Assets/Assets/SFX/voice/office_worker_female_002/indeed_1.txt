@@ -1,0 +1,26 @@
+VERSION 1.0
+PLAINTEXT
+{
+Indeed.
+}
+WORDS
+{
+WORD Indeed. 0.190 1.080
+{
+618 ih 0.190 0.392 1
+110 n 0.392 0.554 1
+100 d 0.554 0.716 1
+105 iy 0.716 0.918 1
+100 d 0.918 1.080 1
+}
+WORD Indeed 1.080 1.564
+{
+}
+}
+EMPHASIS
+{
+}
+OPTIONS
+{
+voice_duck 0
+}
