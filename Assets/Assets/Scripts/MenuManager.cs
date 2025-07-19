@@ -20,6 +20,21 @@ public class MenuManager : MonoBehaviour
     public bool FrPcTPr;
     [Tooltip("Movement from projector to laptop?")]
     public bool FrPrTPc;
+
+    /*public Animator anim;
+    public GameObject mainLaptop;
+    public GameObject AnimatedLaptop;
+    public Animator projectorAnim;*/
+
+    /*private void Start()
+    {
+        if (projectorAnim != null)
+        {
+            projectorAnim.Play("ProjectorRollUp");
+            projectorAnim.Play("PullRollUp");
+        }
+        
+    }*/
     private void OnMouseDown()
     {
         gameObject.transform.parent.parent.gameObject.SetActive(false);
@@ -39,11 +54,30 @@ public class MenuManager : MonoBehaviour
         if (FrPcTPr)
         {
             menucameramove.PcTPr();
+            //mainLaptop.SetActive(false);
+            //AnimatedLaptop.SetActive(true);
+            //anim.Play("LidClose");
+            //anim.Play("Lid1Close");
+            /*if (projectorAnim != null)
+            {
+                projectorAnim.Play("ProjectorRollDown");
+                projectorAnim.Play("PullRollDown");
+            }*/
+            
         }
 
         if (FrPrTPc)
         {
             menucameramove.PrTPc();
+            //mainLaptop.SetActive(true);
+            //AnimatedLaptop.SetActive(false);
+            /*if (projectorAnim != null)
+            {
+                projectorAnim.Play("ProjectorRollUp");
+                projectorAnim.Play("PullRollUp");
+            }*/
+            
+            
         }
 
         /*if (doTurnOnBool && FrPcTTa)

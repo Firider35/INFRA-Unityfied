@@ -15422,6 +15422,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3939009131528845470, guid: 18b7bc43147d0474ab046fb97fbc7dc6, type: 3}
+      propertyPath: 'm_Materials.Array.data[0]'
+      value: 
+      objectReference: {fileID: -6277752613276803968, guid: 8bfc713da51b61d4d9f2daa936df2b17, type: 3}
+    - target: {fileID: 8289023456970947695, guid: 18b7bc43147d0474ab046fb97fbc7dc6, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 8308387308683164780, guid: 18b7bc43147d0474ab046fb97fbc7dc6, type: 3}
       propertyPath: m_Name
       value: MeetingRoom
