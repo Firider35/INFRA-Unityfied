@@ -324,37 +324,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1, y: 1, z: 1}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!1 &3427412115495068763
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1136583453642899679}
-  m_Layer: 0
-  m_Name: FireExitSign
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1136583453642899679
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3427412115495068763}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2298443691526828478}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &4834445143513519596
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,7 +879,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &2298443691526828478
 Transform:
   m_ObjectHideFlags: 0
@@ -1028,7 +997,6 @@ Transform:
   - {fileID: 6721478444566168158}
   - {fileID: 1361435143310822298}
   - {fileID: 8695059424456576432}
-  - {fileID: 1136583453642899679}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &293402908083982435
@@ -1090,6 +1058,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
       propertyPath: m_Name
       value: officeblinds
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1153,6 +1125,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: mug2
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 18675bdd81667b8499436599f1f50c9e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1214,6 +1190,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d67b64cddc4f48342bc2c8fadc46694b, type: 3}
       propertyPath: m_Name
       value: bin
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d67b64cddc4f48342bc2c8fadc46694b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1281,6 +1261,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: meetingtablecut
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a25eda7f53ef4624ea136b0d516b7cf2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1342,6 +1326,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1 (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1417,6 +1405,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citysewers (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1478,6 +1470,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 6aae7659e393d224aaa68c426844615c, type: 3}
       propertyPath: m_Name
       value: mousepad
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6aae7659e393d224aaa68c426844615c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1553,6 +1549,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: officeblinds (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1614,6 +1614,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1 (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1677,6 +1681,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: bluemug
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2ad16d6444f049248aaebea4264b9b43, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1738,6 +1746,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1801,6 +1813,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: evotan (11)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1863,6 +1879,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: airvent1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7062ef366ff93e468313f0c21d86e09, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1924,6 +1944,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
       propertyPath: m_Name
       value: graychaircut (4)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1990,6 +2014,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: a25eda7f53ef4624ea136b0d516b7cf2, type: 3}
       propertyPath: m_Name
       value: meetingtablecut (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: a25eda7f53ef4624ea136b0d516b7cf2, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2065,6 +2093,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: officeblinds (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2126,6 +2158,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c059694f596406b46863e4928b7eef9e, type: 3}
       propertyPath: m_Name
       value: officechair1_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c059694f596406b46863e4928b7eef9e, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2193,6 +2229,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: todolist
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 356cd70316f66a348ac2cc37b26f7a56, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2254,6 +2294,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ac525b29eb92c424d905aaf00069c290, type: 3}
       propertyPath: m_Name
       value: stackofpapers
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ac525b29eb92c424d905aaf00069c290, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2329,6 +2373,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: cardboardboxsmall
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3aa14c8ad42d4f74a8a9294578396b10, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2403,6 +2451,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citysewers (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2464,6 +2516,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
       propertyPath: m_Name
       value: graychaircut (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2527,6 +2583,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: rod
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 26afce3aba63a6844b1d683f278edddc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2589,6 +2649,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: radio
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 83171227d45c9304380ddb03e129f060, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2650,6 +2714,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1 (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2720,6 +2788,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
       propertyPath: m_Name
       value: citysewers (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2794,6 +2866,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ca794b47f6cf51642ad2dd24064a2375, type: 3}
       propertyPath: m_Name
       value: tablet
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ca794b47f6cf51642ad2dd24064a2375, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2890,6 +2966,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citypowerstations
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55059f1b2f5adba4aadcd86805e206f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2951,6 +3031,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
       propertyPath: m_Name
       value: citysewers (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3021,6 +3105,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
       propertyPath: m_Name
       value: officeblinds (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3096,6 +3184,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: officeblinds (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3157,6 +3249,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 250e02c6e6692254199a57eb0ebcb654, type: 3}
       propertyPath: m_Name
       value: bluesmall
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 250e02c6e6692254199a57eb0ebcb654, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3220,6 +3316,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: board
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: eaa01cb3a0f2c4b4faeeaf35559055fc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3281,6 +3381,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1 (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3344,6 +3448,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: redplasticboxdecimated
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 23a599b4c3e995c40befba3865d66204, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3405,6 +3513,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
       propertyPath: m_Name
       value: evotan (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3468,6 +3580,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: pencilcup
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: feb842aef94f63e488b66f84939c184f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3529,6 +3645,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e1f9897e309bd3b4694f37c79e857f0b, type: 3}
       propertyPath: m_Name
       value: orangemug (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e1f9897e309bd3b4694f37c79e857f0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3595,6 +3715,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
       propertyPath: m_Name
       value: evotan (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3670,6 +3794,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: officeblinds (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3740,6 +3868,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citysewers (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3806,6 +3938,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: boardempty
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e557976c6b9ff0d48a6c2e117c524935, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3867,6 +4003,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1 (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -3930,6 +4070,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: small2 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b125d0b95babd9e49ac64c2e6b5b0bfc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -3992,6 +4136,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ceilingtile1 (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4053,6 +4201,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1 (12)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4124,6 +4276,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citypowerstations (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55059f1b2f5adba4aadcd86805e206f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4185,6 +4341,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: b125d0b95babd9e49ac64c2e6b5b0bfc, type: 3}
       propertyPath: m_Name
       value: small2
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b125d0b95babd9e49ac64c2e6b5b0bfc, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4252,6 +4412,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citysewers (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4314,6 +4478,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: plantpot1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 6c2a1ae95e69e114dbfbd2ac6c8146ba, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4375,6 +4543,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1 (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4442,6 +4614,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: painting1
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 17eecaca9acb19741b5fca166ee359ad, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4503,6 +4679,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
       propertyPath: m_Name
       value: graychaircut (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4569,6 +4749,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 71bb1db593ab4bb47967af6704069d52, type: 3}
       propertyPath: m_Name
       value: bigpaper
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 71bb1db593ab4bb47967af6704069d52, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4639,6 +4823,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 55059f1b2f5adba4aadcd86805e206f9, type: 3}
       propertyPath: m_Name
       value: citypowerstations (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55059f1b2f5adba4aadcd86805e206f9, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4713,6 +4901,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
       propertyPath: m_Name
       value: laptop4 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1129496810705857465, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
@@ -4792,6 +4984,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citysewers
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4854,6 +5050,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: graychaircut (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -4915,6 +5115,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
       propertyPath: m_Name
       value: evotan
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -4986,6 +5190,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citysewers (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5047,6 +5255,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
       propertyPath: m_Name
       value: graychaircut (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5110,6 +5322,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ceilingtile1 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5171,6 +5387,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 55e48bf9857a76e48b46f4320c81a9c4, type: 3}
       propertyPath: m_Name
       value: laptop5
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 55e48bf9857a76e48b46f4320c81a9c4, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5234,6 +5454,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: binderblue
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 119e6928ca58c374989fe3e75e853f8c, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5295,6 +5519,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e1f9897e309bd3b4694f37c79e857f0b, type: 3}
       propertyPath: m_Name
       value: orangemug
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: e1f9897e309bd3b4694f37c79e857f0b, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5358,6 +5586,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: graycart
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ed62c776f2e49fc4793fe3ced0de00f1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5419,6 +5651,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3c8336b1f99274a4ca5486da2f123f7d, type: 3}
       propertyPath: m_Name
       value: mouse
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3c8336b1f99274a4ca5486da2f123f7d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5494,6 +5730,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: laptop4 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1129496810705857465, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5559,6 +5799,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: ac525b29eb92c424d905aaf00069c290, type: 3}
       propertyPath: m_Name
       value: stackofpapers (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ac525b29eb92c424d905aaf00069c290, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5634,6 +5878,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: laptop4 (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1129496810705857465, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -5700,6 +5948,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ceilingtile1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5761,6 +6013,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: d7062ef366ff93e468313f0c21d86e09, type: 3}
       propertyPath: m_Name
       value: airvent1
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: d7062ef366ff93e468313f0c21d86e09, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5828,6 +6084,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: evotan (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -5889,6 +6149,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
       propertyPath: m_Name
       value: graychaircut (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -5956,6 +6220,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: citysewers (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c7b023fe163d3ee429cd304a4d6fcc82, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6017,6 +6285,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
       propertyPath: m_Name
       value: evotan (13)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6088,6 +6360,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: evotan (12)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6150,6 +6426,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ceilingtile1 (14)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6211,6 +6491,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
       propertyPath: m_Name
       value: graychaircut (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6278,6 +6562,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: evotan (10)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6339,6 +6627,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: feb015cd44da2fe48bb2673af9923912, type: 3}
       propertyPath: m_Name
       value: stripedplasticboxdecimated
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: feb015cd44da2fe48bb2673af9923912, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6414,6 +6706,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: officeblinds (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6475,6 +6771,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
       propertyPath: m_Name
       value: graychaircut
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6538,6 +6838,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: graychaircut (8)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6600,6 +6904,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ceilingtile1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6661,6 +6969,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
       propertyPath: m_Name
       value: ceilingtile1 (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6736,6 +7048,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: officeblinds (6)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: b3ca1d67dfdce7341b55acda786ca303, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6797,6 +7113,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
       propertyPath: m_Name
       value: evotan (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6860,6 +7180,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: evotan (9)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1fffff3013843a34ea264251bf0c5807, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -6921,6 +7245,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
       propertyPath: m_Name
       value: graychaircut (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -6984,6 +7312,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: graychaircut (7)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 1624b869a63a2114d95624c1c14a5932, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7046,6 +7378,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ceilingtile1 (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 65b95ae34d7136143a756f69d074b23d, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7064,9 +7400,21 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 2298443691526828478}
     m_Modifications:
+    - target: {fileID: 499018495015405251, guid: 59dcfb5dc1a4c0d47994c1fc5944be62, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 948005517772311223, guid: 59dcfb5dc1a4c0d47994c1fc5944be62, type: 3}
       propertyPath: m_Name
       value: FireExitSign
+      objectReference: {fileID: 0}
+    - target: {fileID: 948005517772311223, guid: 59dcfb5dc1a4c0d47994c1fc5944be62, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7679293438989806783, guid: 59dcfb5dc1a4c0d47994c1fc5944be62, type: 3}
+      propertyPath: m_IsActive
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8969921794502798278, guid: 59dcfb5dc1a4c0d47994c1fc5944be62, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7182,6 +7530,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: laptop4 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1129496810705857465, guid: 9ed18e75abe0c0947b120977a30ee234, type: 3}
       propertyPath: 'm_Materials.Array.data[0]'
       value: 
@@ -7248,6 +7600,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: projector_3
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: ecddef2427ae8c7499ec8934b8ab6c1f, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -7309,6 +7665,10 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: 3af5b831a2409c546aea7860695942fb, type: 3}
       propertyPath: m_Name
       value: fabricpart
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 3af5b831a2409c546aea7860695942fb, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
