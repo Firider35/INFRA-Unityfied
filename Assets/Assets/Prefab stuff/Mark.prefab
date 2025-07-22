@@ -32,7 +32,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.9, z: 0.5}
+  m_LocalScale: {x: 0.5, y: 0.85, z: 0.5}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5965292805573771685}
@@ -177,6 +177,11 @@ MonoBehaviour:
   maxRaycastDist: 5
   sphereRadius: 2
   isHoldingObject: 0
+  Act1: 0
+  Act2: 0
+  Act3: 0
+  geoDetector: {fileID: 0}
+  forceAmount: 10
 --- !u!1 &3092232295730093499
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,7 +211,7 @@ Transform:
   m_GameObject: {fileID: 3092232295730093499}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.8333334, z: 0}
+  m_LocalPosition: {x: 0, y: 0.8, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
