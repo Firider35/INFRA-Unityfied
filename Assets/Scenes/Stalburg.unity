@@ -16854,6 +16854,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Mark
       objectReference: {fileID: 0}
+    - target: {fileID: 2263709649582568554, guid: c9fafadc52a15c7499cb8f3bc9c162c8, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7019686648093487311, guid: c9fafadc52a15c7499cb8f3bc9c162c8, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2999.882
@@ -24931,7 +24935,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 08c1202ba89f15d4f98a9db43e4fe22d, type: 3}
       propertyPath: m_IsActive
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
