@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 
 public class MenuCameraMover : MonoBehaviour
@@ -15,6 +16,9 @@ public class MenuCameraMover : MonoBehaviour
     private bool Move3 = false;
     private bool Move4 = false;
 
+    private Transform target;
+    private Quaternion targetR;
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -26,30 +30,50 @@ public class MenuCameraMover : MonoBehaviour
     {
         if (Move1)
         {
-            lerpobject.position = Vector3.Lerp(lerpobject.position, targetTa.position, Time.deltaTime * lerpspeed);
-            lerpobject.rotation = Quaternion.Lerp(lerpobject.rotation, targetTa.rotation, Time.deltaTime * lerprotatesp);
+            //lerpobject.position = Vector3.Lerp(lerpobject.position, targetTa.position, Time.deltaTime * lerpspeed);
+            //lerpobject.rotation = Quaternion.Lerp(lerpobject.rotation, targetTa.rotation, Time.deltaTime * lerprotatesp);
+            target = targetTa;
+            targetR = targetTa.rotation;
+
+            StartCoroutine(MoveTo(target.position, targetR));
+            Move1 = false;
         }
 
 
         if (Move2)
         {
-            lerpobject.position = Vector3.Lerp(lerpobject.position, targetPC.position, Time.deltaTime * lerpspeed);
-            lerpobject.rotation = Quaternion.Lerp(lerpobject.rotation, targetPC.rotation, Time.deltaTime * lerprotatesp);
+            //lerpobject.position = Vector3.Lerp(lerpobject.position, targetPC.position, Time.deltaTime * lerpspeed);
+            //lerpobject.rotation = Quaternion.Lerp(lerpobject.rotation, targetPC.rotation, Time.deltaTime * lerprotatesp);
+            target = targetPC;
+            targetR = targetPC.rotation;
+
+            StartCoroutine(MoveTo(target.position, targetR));
+            Move2 = false;
         }
 
         if (Move3)
         {
-            lerpobject.position = Vector3.Lerp(lerpobject.position, targetPr.position, Time.deltaTime * lerpspeed);
-            lerpobject.rotation = Quaternion.Lerp(lerpobject.rotation, targetPr.rotation, Time.deltaTime * lerprotatesp);
+            //lerpobject.position = Vector3.Lerp(lerpobject.position, targetPr.position, Time.deltaTime * lerpspeed);
+            //lerpobject.rotation = Quaternion.Lerp(lerpobject.rotation, targetPr.rotation, Time.deltaTime * lerprotatesp);
+            target = targetPr;
+            targetR = targetPr.rotation;
+
+            StartCoroutine(MoveTo(target.position, targetR));
+            Move3 = false;
         }
 
         if (Move4)
         {
-            lerpobject.position = Vector3.Lerp(lerpobject.position, targetPC.position, Time.deltaTime * lerpspeed);
-            lerpobject.rotation = Quaternion.Lerp(lerpobject.rotation, targetPC.rotation, Time.deltaTime * lerprotatesp);
+            //lerpobject.position = Vector3.Lerp(lerpobject.position, targetPC.position, Time.deltaTime * lerpspeed);
+            //lerpobject.rotation = Quaternion.Lerp(lerpobject.rotation, targetPC.rotation, Time.deltaTime * lerprotatesp);
+            target = targetPC;
+            targetR = targetPC.rotation;
+
+            StartCoroutine(MoveTo(target.position, targetR));
+            Move4 = false;
         }
 
-        if ((Vector3.Distance(lerpobject.position, targetTa.position) <= 0.1) && (Quaternion.Angle(lerpobject.rotation, targetTa.rotation) <= 0.1))
+        /*if ((Vector3.Distance(lerpobject.position, targetTa.position) <= 0.1) && (Quaternion.Angle(lerpobject.rotation, targetTa.rotation) <= 0.1))
         {
             Move1 = false;
         }
@@ -67,7 +91,7 @@ public class MenuCameraMover : MonoBehaviour
         if ((Vector3.Distance(lerpobject.position, targetPC.position) <= 0.1) && (Quaternion.Angle(lerpobject.rotation, targetPC.rotation) <= 0.1))
         {
             Move4 = false;
-        }
+        }*/
 
     }
 
@@ -89,5 +113,23 @@ public class MenuCameraMover : MonoBehaviour
     public void TaTPc()
     {
         Move2 = true;
+    }
+    private IEnumerator MoveTo(Vector3 target, Quaternion targetR)
+    {
+        float elapsed = 0f;
+        float duration = 2.5f;
+
+        Vector3 start = lerpobject.position;
+        Quaternion startR = lerpobject.rotation;
+
+        while (elapsed < duration)
+        {
+            lerpobject.position = Vector3.Lerp(start, target, elapsed / duration);
+            elapsed += Time.deltaTime;
+                yield return null;
+            lerpobject.rotation = Quaternion.Slerp(startR, targetR, elapsed / duration);
+        }
+        lerpobject.position = target;
+        lerpobject.rotation = targetR;
     }
 }

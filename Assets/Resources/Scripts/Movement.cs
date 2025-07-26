@@ -190,7 +190,10 @@ public class Movement : MonoBehaviour
                                 if (heightDiff >= minClimbHeight && heightDiff <= maxClimbHeight)
                                 {
                                     //Debug.Log("Climbing");
-                                    Vector3 climbTarget = new Vector3(bounds.center.x, bounds.max.y + yOffset, bounds.center.z);
+                                    Vector3 forwardDir = Camera.main.transform.forward;
+                                    forwardDir.y = 0;
+                                    forwardDir.Normalize();
+                                    Vector3 climbTarget = new Vector3(transform.position.x + forwardDir.x * 0.5f, bounds.max.y + yOffset, transform.position.z + forwardDir.z * 0.5f);
                                     //gameObject.transform.position = Vector3.Lerp(gameObject.transform.position, climbTarget, Time.deltaTime * climbSpeed);
                                     //print(climbTarget);
                                     StartCoroutine(ClimbTo(climbTarget));
